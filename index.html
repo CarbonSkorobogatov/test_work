@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  user-scalable=no">
+    <title>FUNDCAP</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <section class="body-wrapper">            
+       
+        <div class="header">
+            <div class="navigator">
+                <span class="Title">Fundcap</span>
+                <span class="nav">
+                    <a href="#" class="white-text">Home</a>
+                    <a href="#" class="white-text">Feature</a>
+                    <a href="#" class="white-text">Services</a>
+                    <a href="#" class="white-text">About Us</a>
+                </span>
+                <a href="#" class="login white-text">Login</a>
+                <div class="get-started"><a href="#" class="white-text">GET STARTED</a></div>
+            </div>
+            <div class="middle-title">
+                <h2 class="middle-title_text">The Wealth Container<br>platform. The easiest way to <br>launch your funds</h2>
+            </div>
+            <button class="free-trial">FREE TRIAL</button>
+
+            <div class="main"> 
+                <div class="main-container">
+                    <h4 class="container_title">Define</h4>
+                    <p class="container_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et est voluptate, omnis tempore maiores obcaecati veritatis reprehenderit eveniet, porro aspernatur voluptatum cupiditate. Rem deserunt reprehenderit vero eos modi, perferendis tempora.</p>
+                </div>
+                <div class="main-container">
+                    <h4 class="container_title">Define</h4>
+                    <p class="container_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ducimus laborum nobis alias velit inventore quod vitae amet omnis. Ratione harum commodi odit voluptas debitis, dicta ducimus necessitatibus possimus temporibus.</p>
+                </div>
+                <div class="main-container">
+                    <h4 class="container_title">Define</h4>
+                    <p class="container_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad molestiae aspernatur amet accusamus harum quisquam asperiores repellat totam nulla illo fuga sint quam modi, suscipit, reprehenderit placeat laborum, ab iste!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        window.addEventListener('scroll', function() {
+            nav = document.querySelector('.navigator');
+            if(pageYOffset > 54)
+            {   
+                console.log(1);
+                nav.style.backgroundColor = "#1c1e45"
+            }else
+            {   
+                console.log(2);
+                nav.style.backgroundColor = "none"
+            }
+        })
+    </script>
+</body>
+</html>
